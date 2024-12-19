@@ -1,0 +1,42 @@
+@media (max-width: 450px){
+    html{
+        font-size: 16px;
+        margin-top: 8em;
+    }
+    .custom-checkbox{
+        width: 1.2rem;
+        height: 1.2rem;
+        margin-left: 0.8rem;
+        margin-top: 0.5rem;
+        border: 0.1rem solid rgba(229, 213, 197, 0.846);
+        border-radius: 0.3rem;
+    }
+    .custom-checkbox::after{
+        left: 0.35rem;
+        width: 0.4rem;
+        height: 0.8rem;
+    }
+
+}
+@media (min-width: 600px) and (max-width: 1024px){
+    html{
+        font-size: 20px;
+    }
+    .forma{
+        width: 500px;
+        height: 1366px;
+    }
+    .custom-checkbox{
+        width: 1rem;
+        height: 1rem;
+        margin-top: 0rem;
+        border: 0.12rem solid rgba(229, 213, 197, 0.846);
+        border-radius: 0.3rem;
+    }
+    .custom-checkbox::after{
+        left: 0.3rem;
+        width: 0.35rem;
+        height: 0.65rem;
+        border-width: 0 3px 3px 0;
+    }
+}

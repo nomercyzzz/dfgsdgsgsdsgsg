@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма заявки</title>
+    <link rel="stylesheet" href="заявка css.css">
+    <link rel="stylesheet" href="адаптация заявка.css">
+<body>
+<div class="forma">
+    <h1>Разработка веб-приложения</h1>
+    <p>Заполните форму и мы обязательно свяжемся с вами в ближайшее время для уточнения деталей.</p>
+    <form>
+        <label for="name">ФИО</label>
+        <input type="text" id="name" placeholder=" Иванов Иван Иванович" required>
+
+        <label for="email">Ваш e-mail</label>
+        <input type="email" id="email" placeholder="ivan@gmail.com" required>
+
+        <label for="phone">Телефон</label>
+        <input type="tel" id="phone" placeholder="+7 919 999 99 99" required>
+
+        <label for="country">Страна</label>
+        <select id="country" required>
+            <option value="">Выбирите страну </option>
+            <option value="">Россия</option>
+            <option value="">Беларусь</option>
+            <option value="">Казахстан</option>
+            <option value="">Нет из выше перечисленного</option>
+        </select>
+
+        <label for="date">Дата</label>
+        <input type="date" id="date">
+
+        <label for="comment">Комментарий</label>
+        <textarea id="comment" rows="4"></textarea>
+        <input id="ggg" type="reset">
+        <label id="zzz">
+            Согласен на обработку моих персональных данных
+            <input type="checkbox" id="xxx" required>
+            <span class="custom-checkbox"></span>
+        </label>
+
+        <button type="submit">Отправить заявку</button>
+    </form>
+</div>
+</body>
+</html>

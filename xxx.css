@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(31, 28, 28);
+}
+
+header {
+    background-color: rgb(31, 28, 28);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid rgba(229, 213, 197, 0.553);
+    border-bottom-width: 4px;
+    padding-top: 4px;
+    height: 96px;
+}
+a:active{
+    color: rgba(229, 213, 197, 0.846);
+}
+h4 a{
+    color: rgba(229, 213, 197, 0.553);
+    text-decoration: none;
+}
+nav ul {
+    display: flex; 
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+.user-info {
+    padding-right: 15px;
+}
+#mainpart
+{
+    display:flex;
+    flex-direction: column;
+}
+
+aside {
+    display: flex;
+    border-left: 5px solid rgba(229, 213, 197, 0.553);
+    border-right: 5px solid rgba(229, 213, 197, 0.553);
+    margin-right: 15px; 
+    padding-left: 15px;
+    flex-direction: column;
+}
+main{
+    background-color: rgb(31, 28, 28);
+    display: flex;
+    border-right: 5px solid rgba(229, 213, 197, 0.553);
+}
+.icon-container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.icon {
+    width: 250px; 
+    height: 220px; 
+    margin: 0 10px; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+}
+footer{
+    background-color: rgb(31, 28, 28);
+    display: flex;
+    border: 5px solid rgba(229, 213, 197, 0.553);
+}
+.icon_tg{
+    height: 25px;
+    width: 25px;
+}
+.icon_vk{
+    height: 25px;
+    width: 25px; 
+}
+
+.myname {
+    flex: 1; 
+    text-align: center;
+}
+#Navpost{
+    display: flex;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.iconBuy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.xxx{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.xxx::before{
+    content: "•";
+    margin-right: 5px
+}
+.text_1{
+    height: 25px;
+}
+.text_1 h4::before, .text_1 h4::after{
+    content: "•"; 
+    margin-right: 5px;
+    margin-left: 5px;
+}
+p {
+    color: rgba(229, 213, 197, 0.553); /*цвет*/
+}
+
+.myname p {
+    color: rgba(229, 213, 197, 0.553); /*цвет*/
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgba(229, 213, 197, 0.553); /*цвет*/
+}
+h3 {
+    color: rgba(229, 213, 197, 0.553); 
+}
+
+h2 {
+    color: rgba(229, 213, 197, 0.553); /*цвет*/
+}
+aside h4 {
+    color: rgba(229, 213, 197, 0.553); /*цвет*/
+}
+h4 {
+    margin-top: 0px; 
+    color: rgba(229, 213, 197, 0.553); /*цвет*/
+} 
+.buttonBuy {
+    background-color: rgb(31, 28, 28);
+    border: none;
+}
+button{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: stretch;
+}
+#hhh{
+    margin-right: 0px;
+}
+#buy{
+    color:rgba(229, 213, 197, 0.553);
+}
+#buy:active{
+    color: rgba(229, 213, 197, 0.846);
+} 
+.container-fluid{
+    color: aqua;
+}

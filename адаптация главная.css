@@ -1,0 +1,106 @@
+@media (max-width: 450px) {
+    html{
+        font-size: 12px;
+        width: 110%;
+    }
+    header {
+        height: 100%;
+        border: 0.3rem solid rgba(229, 213, 197, 0.553);
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+    aside{
+        display: none;
+    }
+    #sec1{
+        padding-left: 0.4rem;
+        padding-right: 0.4rem;
+    }
+    #sec2{
+        padding-left: 0.4rem;
+        padding-right: 0.4rem;
+    }
+    #ochoba{
+        padding-left: 0.4rem;
+        padding-right: 0.4rem; 
+    }
+    .video_x{
+        margin-left: 0px;
+        width: 370px;
+        height: 230px;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+    main{
+        border-right: 0.3rem solid rgba(229, 213, 197, 0.553);
+        border-left: 0.3rem solid rgba(229, 213, 197, 0.553);
+    }
+    footer{
+        border: 0.3rem solid rgba(229, 213, 197, 0.553);
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+    .icon_tg{
+        width: 2rem;
+        height: 2rem;
+        margin-top: 0.5rem;
+    }
+    .icon_vk{
+        width: 2rem;
+        height: 2rem;
+        margin-top: 0.5rem;
+    }
+    .myname{
+        margin-left: 4rem;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    html{
+        font-size: 14px;
+    }
+    header{
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        border: 0.4rem solid rgba(229, 213, 197, 0.553);
+        height: 6rem;
+    }
+    footer{
+        border: 0.4rem solid rgba(229, 213, 197, 0.553);
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+    .video_x{
+        margin-left: 0px;
+    }
+    aside{
+        width: 25%;
+        padding-left: 5px;
+        padding-right: 10px;
+        margin-right: 0px;
+    }
+    .video_x{
+        margin-left: 0px;
+        width: 545px;
+        height: 300px;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+    section{
+        width: 98%;
+    }
+    section h3{
+        padding-left: 5px;
+    }
+    section p{
+        padding-left: 5px;
+    }
+    #ochoba{
+        padding-left: 5px;
+    }
+    #sec2{
+        padding-bottom: 5px;
+    }
+}

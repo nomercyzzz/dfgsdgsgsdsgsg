@@ -1,0 +1,155 @@
+body {
+    font-size: 18px;
+    font-family: Apple Chancery, cursive; 
+    margin: 0;
+    padding: 0;
+    background-color: rgb(31, 28, 28);
+}
+
+header {
+    background-color: rgb(31, 28, 28);
+    border: 5px solid rgba(229, 213, 197, 0.553);
+}
+.myname {
+    flex: 1; 
+    text-align: center;
+    color: rgba(229, 213, 197, 0.553);
+}
+footer{
+    display: flex;
+    border: 5px solid rgba(229, 213, 197, 0.553);
+}
+.icon_tg{
+    height: 25px;
+    width: 25px;
+}
+.icon_vk{
+    height: 25px;
+    width: 25px; 
+}
+aside {
+    display: flex;
+    border-left: 5px solid rgba(229, 213, 197, 0.553);
+    border-right: 5px solid rgba(229, 213, 197, 0.553);
+    padding-left: 15px;
+    flex-direction: column;
+}
+#card_xxx{
+    display: flex;
+}
+.card{
+    margin-right: 12px;
+    background-color: rgb(31, 28, 28);
+    --bs-card-border-color: none;
+}
+.btn-primary{
+    color:rgb(31, 28, 28);
+    background-color: rgba(229, 213, 197, 0.553);
+    border: none; 
+    --bs-btn-active-bg: rgba(229, 213, 197, 0.553) !important; /* жопа для active bobstrap на кнопку */
+    --bs-btn-active-color: rgb(31, 28, 28) !important;
+}
+.btn:hover{
+    background-color:rgba(229, 213, 197, 0.846);
+    color: rgb(31, 28, 28);
+    transform: 1s;
+}
+.btn:active{
+    background-color: rgba(229, 213, 197, 0.846);
+}
+.card-img-top{
+    border-radius: 10px;
+}
+.accordion-body{
+    color:rgba(229, 213, 197, 0.553);
+    margin-bottom: 12px;
+}
+/* zzzzzzzzzzzzzzzzzzz */
+body header .container-fluid{
+    background-color: rgb(31, 28, 28);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.navbar-toggler-icon {
+    width: 15px !important;
+    height: 15px !important;
+}
+.navbar-toggler {
+    background-color: rgba(229, 213, 197, 0.553);/* Ваш цвет фона */
+    border:none;
+    padding-bottom: 6px;
+    padding-top: 0px;
+}
+
+h6{
+    color: rgba(229, 213, 197, 0.553);
+    padding-top: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+h5{
+    color:rgba(229, 213, 197, 0.553);
+}
+h2{
+    color:rgba(229, 213, 197, 0.553);
+}
+/* панель навигации */
+
+
+/* середина */
+.col-4{
+    position: fixed;
+    width: 14%;
+    border-right: 0px;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    border-right: 5px solid rgba(229, 213, 197, 0.553);
+}
+.border-end{
+    border-right: 0px !important;
+    padding-right: 0px !important;
+}
+.col-8{
+    width: 84%;
+    padding: 12px;
+}
+aside{
+    width: 20%;
+    border-right: 5px solid rgba(229, 213, 197, 0.553);
+    border-left: 5px solid rgba(229, 213, 197, 0.553);
+}
+.nav-pills {
+    --bs-nav-pills-link-active-bg: rgba(229, 213, 197, 0.553); /* цвет иконки */
+    --bs-nav-pills-link-active-color: rgb(31, 28, 28); /* цвет текста в иконке */
+}
+.nav{
+    --bs-nav-link-color: rgba(229, 213, 197, 0.553); /* цвет текста который не в иконке */
+    --bs-nav-link-hover-color: rgba(229, 213, 197, 0.846); /* цвет наведения на иконку */
+}
+main p{
+    color: rgba(229, 213, 197, 0.553);
+}
+/* тема 1 (середина) */
+#item-1{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 26rem !important;
+}
+.navbar-brand h4{
+    display: none;
+}
+h5:hover{
+    color: rgba(229, 213, 197, 0.846);
+    transition: 1s;
+
+}
+a:hover{
+    color: rgba(229, 213, 197, 0.846);
+    transition: 1s;
+}

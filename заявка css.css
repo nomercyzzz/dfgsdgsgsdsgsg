@@ -1,0 +1,124 @@
+
+.forma{
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    position: fixed;
+    overflow: auto;
+}
+.forma-container{
+    background-color: rgb(31, 28, 28);
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+
+}
+.close{
+    float: right;
+    color:rgba(229, 213, 197, 0.846);
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: rgba(229, 213, 197, 0.553);
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: rgba(229, 213, 197, 0.553);
+}
+input{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(229, 213, 197, 0.846);
+}
+input::placeholder{ /* цвет текста */
+    color: rgb(31, 28, 28); 
+}
+
+select{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(229, 213, 197, 0.846);
+}
+textarea{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(229, 213, 197, 0.846);
+}
+button{
+    background-color: rgba(229, 213, 197, 0.846);
+    color: rgb(31, 28, 28);
+    border: none;
+    padding: 10px;
+    padding-bottom: 11px;
+    border-radius: 5px;
+}
+#xxx{
+    display: none;
+    border: solid  rgba(229, 213, 197, 0.846);
+    width: 20px;
+    margin-top: 4px;
+}
+#zzz{
+    display: flex;
+    width: 103.7%;
+}
+#ggg{
+    width: 25%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    margin-top: 15px;
+}
+p{
+    color: rgba(229, 213, 197, 0.553);
+}
+.custom-checkbox {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 6px;
+    margin-top: 8px;
+    border: 2px solid rgba(229, 213, 197, 0.846); 
+    border-radius: 4px; 
+    position: relative; 
+    cursor: pointer; 
+}
+.custom-checkbox::after {
+    content: '';
+    position: absolute;
+    left: 3px;
+    width: 6px;
+    height: 10px;
+    border: solid rgba(229, 213, 197, 0.897);
+    border-width: 0 2.4px 2.4px 0;
+    transform: rotate(45deg);
+    opacity: 0;
+}
+#xxx:checked + .custom-checkbox::after {
+    opacity: 1; 
+}
+
+
+/* форма через bootstrap */
+.modal-content{
+    background-color: rgb(31, 28, 28);
+    border-radius: 20px;
+    border-color: rgb(31, 28, 28);
+}
